@@ -13,3 +13,14 @@ def draw():
     water_droplet.draw()
     screen.draw.text("Score: " + str(score), color="black", topleft=(10,10))
 
+if game_over:
+def place_water-droplet():
+    global game_over
+    game_over=True
+def time_up():
+    pass
+
+def update():
+    pass
+ clock.schedule(time_up.60.0)
+place_water-droplet()
